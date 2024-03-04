@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a01597f6.css",
-    "main.js": "/static/js/main.30f03fea.js",
+    "main.js": "/static/js/main.9ce68591.js",
     "static/media/Tentamenbloggen1.png": "/static/media/Tentamenbloggen1.a10a7dedabeeed4ccde0.png",
     "static/media/Todo1.png": "/static/media/Todo1.e12e4f834110531b6d32.png",
     "static/media/StädafintAB1.png": "/static/media/StädafintAB1.b44db972bcdfa786e9fa.png",
@@ -12,10 +12,10 @@
     "static/media/Emelie2.jpeg": "/static/media/Emelie2.dd09a66861d0284bf345.jpeg",
     "index.html": "/index.html",
     "main.a01597f6.css.map": "/static/css/main.a01597f6.css.map",
-    "main.30f03fea.js.map": "/static/js/main.30f03fea.js.map"
+    "main.9ce68591.js.map": "/static/js/main.9ce68591.js.map"
   },
   "entrypoints": [
     "static/css/main.a01597f6.css",
-    "static/js/main.30f03fea.js"
+    "static/js/main.9ce68591.js"
   ]
 }
