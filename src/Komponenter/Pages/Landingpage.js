@@ -28,7 +28,7 @@ const Landingpage = () => {
         sx={{
           bgcolor: "#191B1D",
           width: "50vh",
-          height: "50vh",
+          height: "45vh",
           margin: "10vh auto",
           padding: "20px",
           display: "flex",
@@ -44,7 +44,7 @@ const Landingpage = () => {
           sx={{
             position: "absolute",
             left: "0",
-            top: "40%",
+            top: "35%",
             transform: "translateY(-50%)",
             animation: "swishLeft 1s forwards",
           }}
@@ -56,7 +56,7 @@ const Landingpage = () => {
           sx={{
             position: "absolute",
             right: "0",
-            top: "50%",
+            top: "48%",
             transform: "translateY(-50%)",
             animation: "swishRight 1s forwards",
           }}

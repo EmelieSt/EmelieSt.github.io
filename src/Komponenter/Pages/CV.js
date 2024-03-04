@@ -28,8 +28,8 @@ const CV = () => {
         elevation={4}
         sx={{
           bgcolor: "#191B1D",
-          width: "80%",
-          minHeight: "80vh",
+          width: "40%",
+          minHeight: "70vh",
           margin: "10vh auto",
           padding: "20px",
           display: "flex",
