@@ -2,6 +2,7 @@ import React from "react";
 import Box from "@mui/material/Box";
 import Moodyforest from "../../Images/Moodyforest.jpg";
 import Emelie2 from "../../Images/Emelie2.jpeg"
+import kontakt from "../../Images/kontakt.png"
 import { useTheme } from '@mui/material/styles';
 import {
   Paper,
@@ -80,6 +81,7 @@ const AboutMe = () => {
             <ListItem
               sx={{
                 display: "flex",
+                justifyContent: "center",
                 flexDirection: "column",
                 alignItems: "flex-start",
                 minHeight: "fit-content"
@@ -101,25 +103,22 @@ const AboutMe = () => {
             </ListItem>
           </Paper>
         </div>
-
         <div
           style={{
             flex: 1,
-            marginBottom: inSmallScreen ? "15px" : 0,
+            marginBottom: inSmallScreen ? "20px" : 0,
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
-            minHeight: "fit-content"
           }}
         >
           <img
-            src={Emelie2}
+            src={kontakt}
             alt="Selfie"
-            style={{ maxWidth: "15rem", height: "auto" }}
+            style={{ maxWidth: "12rem", height: "auto" }}
           />
         </div>
       </Paper>
-
       <Paper
         elevation={4}
         sx={{
@@ -133,18 +132,30 @@ const AboutMe = () => {
           marginBottom: "20vh"
         }}
       >
-
-        <div style={{ flex: 2, marginBottom: inSmallScreen ? "15px" : 0 }}>
+         <div
+          style={{
+            flex: 1,
+            marginBottom: inSmallScreen ? "20px" : 0,
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <img
+            src={Emelie2}
+            alt="Selfie"
+            style={{ maxWidth: "12rem", height: "auto" }}
+          />
+        </div>
+        <div style={{ flex: 2, marginBottom: inSmallScreen ? "20px" : 0 }}>
           <Paper
             elevation={2}
             sx={{
               bgcolor: "#333",
-              width: inSmallScreen ? "100%" : "40%",
+              width: inSmallScreen ? "100%" : "80%",
               color: "#fff",
-              padding: "15px",
+              padding: "20px",
               margin: inSmallScreen ? 0 : "4rem",
-              minHeight: "fit-content",
-              
             }}
           
           >
