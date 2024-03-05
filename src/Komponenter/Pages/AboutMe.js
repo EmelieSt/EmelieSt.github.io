@@ -35,7 +35,7 @@ const AboutMe = () => {
       <Paper
         elevation={4}
         sx={{
-          marginTop: "10vh",
+          marginTop: "20vh",
           pt: "20px",
           bgcolor: "#191B1D",
           width: "60%",
@@ -129,7 +129,8 @@ const AboutMe = () => {
           flexDirection: inSmallScreen ? "column" : "row",
           alignItems: "center",
           justifyContent: inSmallScreen ? "center" : "space-around",
-          minHeight: "fit-content"
+          minHeight: "fit-content",
+          marginBottom: "20vh"
         }}
       >
 
@@ -142,7 +143,8 @@ const AboutMe = () => {
               color: "#fff",
               padding: "15px",
               margin: inSmallScreen ? 0 : "4rem",
-              minHeight: "fit-content"
+              minHeight: "fit-content",
+              
             }}
           
           >

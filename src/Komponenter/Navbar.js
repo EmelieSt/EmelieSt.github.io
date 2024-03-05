@@ -11,16 +11,17 @@ const Navbar = () => {
       <div>
         <Link to="/Portfolio">Min Portfolio</Link>
         <Link to="/CV">Min CV</Link>
-        <Link to="/OmMig">Kontaktinformation</Link>
+        <Link to="/About">Kontaktinformation</Link>
       </div>
     </nav>
   );
 };console.log(
-  '%c Hallå där! 👋 Letade du efter något spännande? 🕵️‍♂️',
-  'color: #969; font-size: 14px; font-weight: bold;'
-);
-console.log(
-  '%c Well, du hittade det! 🎉 Njut av ditt besök och sluta aldrig att leta efter nya äventyr i vardagen!',
-  'color: #369; font-size: 14px; font-weight: bold;'
-);
+    '%c Woohoo! 🎉 Welcome to the adventure! 🚀',
+    'color: #ff7f50; font-size: 14px; font-weight: bold;'
+  );
+  console.log(
+    '%c Ready to explore? Let the journey begin! 🌟',
+    'color: #32cd32; font-size: 14px; font-weight: bold;'
+  );
+  
 export default Navbar
